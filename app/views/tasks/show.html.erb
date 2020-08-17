@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>日付:</strong>
+  <%= @task.日付 %>
+</p>
+
+<p>
+  <strong>内容:</strong>
+  <%= @task.内容 %>
+</p>
+
+<p>
+  <strong>場所:</strong>
+  <%= @task.場所 %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>
